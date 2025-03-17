@@ -4,6 +4,9 @@ var bgColourPicker;
 var erasing = false;
 
 function setup(){
+    createCanvas(windowWidth, windowHeight);
+    document.body.style.overflow = "hidden";
+    
     createCanvas(1200,800);
     colourPicker = createColorPicker('LavenderBlush');
     
