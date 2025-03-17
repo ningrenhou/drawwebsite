@@ -57,3 +57,13 @@ function saveDrawing() {
     // remixed from https://p5js.org/reference/p5/saveCanvas/
     saveCanvas('my_drawing', 'png');
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    repaint();
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    repaint();
+}
